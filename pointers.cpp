@@ -56,7 +56,7 @@ int main(){
     // swap2(&a1, &a2);  // call by pointer
     // cout << a1 << "    " << a2 << endl;
  
-    char arr[] = "busRa";
+    char arr[] = "busra";
     cout << arr << endl;  // we can print out a char array like this because we know where the array ends -since char arrays has NULL character at the end, other  types of arrays cannot be printed like this -int, float etc.
     int length = len(arr);
     cout << length << endl;
